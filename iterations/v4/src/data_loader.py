@@ -25,6 +25,20 @@ def _safe_read_csv(path: str) -> Optional[pd.DataFrame]:
     return None
 
 
+def _load_massey_ordinals(data_dir: Path) -> Optional[pd.DataFrame]:
+    """Massey ordinals ship as two CSVs (GitHub size limit); support legacy single file too."""
+    part1 = data_dir / "MMasseyOrdinals_part1.csv"
+    part2 = data_dir / "MMasseyOrdinals_part2.csv"
+    legacy = data_dir / "MMasseyOrdinals.csv"
+    if part1.exists() and part2.exists():
+        df1 = pd.read_csv(part1)
+        df2 = pd.read_csv(part2)
+        return pd.concat([df1, df2], ignore_index=True)
+    if legacy.exists():
+        return pd.read_csv(legacy)
+    return None
+
+
 def load_data(data_dir: Optional[str] = None) -> dict:
     """Load all competition data and compute features.
 
@@ -56,7 +70,7 @@ def load_data(data_dir: Optional[str] = None) -> dict:
     data["cities"] = _safe_read_csv(str(data_dir / "Cities.csv"))
     data["m_game_cities"] = _safe_read_csv(str(data_dir / "MGameCities.csv"))
     data["w_game_cities"] = _safe_read_csv(str(data_dir / "WGameCities.csv"))
-    data["m_massey"] = _safe_read_csv(str(data_dir / "MMasseyOrdinals.csv"))
+    data["m_massey"] = _load_massey_ordinals(data_dir)
     data["m_regular_det"] = _safe_read_csv(str(data_dir / "MRegularSeasonDetailedResults.csv"))
     data["w_regular_det"] = _safe_read_csv(str(data_dir / "WRegularSeasonDetailedResults.csv"))
     data["cities_latlon"] = _safe_read_csv(str(data_dir / "cities_latlon.csv"))

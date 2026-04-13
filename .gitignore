@@ -6,7 +6,7 @@ __pycache__/
 models/
 *.csv
 !data/*.csv
-# Exceeds GitHub 100MB limit; optional — v4 uses _safe_read_csv (empty massey ranks if missing)
+# Legacy single-file Massey (>100MB); use part1 + part2 in repo
 data/MMasseyOrdinals.csv
 output_*.csv
 .pytest_cache/

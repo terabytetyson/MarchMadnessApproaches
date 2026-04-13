@@ -17,6 +17,8 @@ pip install -r requirements.txt
 
 For v8/v9, add `data/cbb_round1_odds_all_champions_2002_2025.json` or set `ODDS_PATH` (see `data/OPTIONAL_ODDS_FOR_TRAINING.txt`).
 
+`MMasseyOrdinals` is split into `data/MMasseyOrdinals_part1.csv` (seasons ≤2016) and `data/MMasseyOrdinals_part2.csv` (≥2017); `iterations/v4` loads and concatenates them. A single `MMasseyOrdinals.csv` still works if you have it locally.
+
 ## Run
 
 From repo root, with `DATA_DIR` pointing at `data/` (default if you run from this tree):
