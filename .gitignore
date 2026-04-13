@@ -1,0 +1,12 @@
+venv/
+.venv/
+__pycache__/
+*.py[cod]
+.DS_Store
+models/
+*.csv
+!data/*.csv
+# Exceeds GitHub 100MB limit; optional — v4 uses _safe_read_csv (empty massey ranks if missing)
+data/MMasseyOrdinals.csv
+output_*.csv
+.pytest_cache/

@@ -1,0 +1,9 @@
+Paris (v9) and DeBERTa (v8) training/eval use historical pre-tournament championship odds:
+
+  cbb_round1_odds_all_champions_2002_2025.json
+
+Place that file in this data/ directory (or set ODDS_PATH). It is not redistributable here; obtain from your Kaggle/competition sources or your own snapshot.
+
+Kalshi (v10) uses only files already in data/: Kaggle CSVs, kalshi_cbb_tournament_odds_2026.json, and championship_odds_2026.json (for 13–16 seed games).
+
+MMasseyOrdinals.csv is omitted from this repo (file > 100MB). Download from the Kaggle competition data bundle if you want Massey ordinal features; training works without it (ranks default to empty).

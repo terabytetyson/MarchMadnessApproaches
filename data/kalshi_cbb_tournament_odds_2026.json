@@ -1,0 +1,635 @@
+{
+  "metadata": {
+    "source": "Kalshi CBB Tournament Futures Markets",
+    "extracted_at": "2026-03-18T14:04:18.659Z",
+    "market_urls": {
+      "Champion": "https://kalshi.com/markets/kxmarmad/college-basketball-champion/kxmarmad-26",
+      "F2": "https://kalshi.com/markets/kxmarmadround/reach-march-madness-round/kxmarmadround-26t2",
+      "F4": "https://kalshi.com/markets/kxmarmadround/reach-march-madness-round/kxmarmadround-26f4",
+      "E8": "https://kalshi.com/markets/kxmarmadround/reach-march-madness-round/kxmarmadround-26e8",
+      "S16": "https://kalshi.com/markets/kxmarmadround/reach-march-madness-round/kxmarmadround-26s16",
+      "R32": "https://kalshi.com/markets/kxmarmadround/reach-march-madness-round/kxmarmadround-26ro32",
+      "R64": "https://kalshi.com/markets/kxmakemarmad/make-march-madness-tournament/kxmakemarmad-26"
+    },
+    "notes": "Probabilities are integer percentages (0-100). Values represent last traded price on Kalshi prediction market. R64: Round of 64 (tournament entry), R32: Round of 32, S16: Sweet 16, E8: Elite 8, F4: Final Four, F2: Championship Game, Champion: National Champion. Blended 50/50 with Polymarket (ncaa_2026_tournament_odds.json).",
+    "sources": [
+      "Kalshi",
+      "Polymarket"
+    ],
+    "blend_weight_kalshi": 0.5
+  },
+  "teams": {
+    "St. John's": {
+      "R64": 100,
+      "R32": 83,
+      "S16": 53,
+      "E8": 18,
+      "F4": 10,
+      "F2": 4,
+      "Champion": 2
+    },
+    "UConn": {
+      "R64": 100,
+      "R32": 96,
+      "S16": 67,
+      "E8": 38,
+      "F4": 13,
+      "F2": 28,
+      "Champion": 4
+    },
+    "Villanova": {
+      "R64": 100,
+      "R32": 46,
+      "S16": 8,
+      "E8": 3,
+      "F4": 2,
+      "F2": 2,
+      "Champion": 1
+    },
+    "VCU": {
+      "R64": 100,
+      "R32": 43,
+      "S16": 22,
+      "E8": 3,
+      "F4": 2,
+      "F2": 10,
+      "Champion": 1
+    },
+    "North Carolina": {
+      "R64": 100,
+      "R32": 57,
+      "S16": 30,
+      "E8": 4,
+      "F4": 2,
+      "F2": 12,
+      "Champion": 1
+    },
+    "Virginia": {
+      "R64": 100,
+      "R32": 93,
+      "S16": 48,
+      "E8": 22,
+      "F4": 8,
+      "F2": 19,
+      "Champion": 2
+    },
+    "Louisville": {
+      "R64": 100,
+      "R32": 68,
+      "S16": 30,
+      "E8": 17,
+      "F4": 6,
+      "F2": 24,
+      "Champion": 1
+    },
+    "Clemson": {
+      "R64": 100,
+      "R32": 44,
+      "S16": 26,
+      "E8": 4,
+      "F4": 6,
+      "F2": 4,
+      "Champion": 1
+    },
+    "Miami (FL)": {
+      "R64": 100,
+      "R32": 55,
+      "S16": 16,
+      "E8": 7,
+      "F4": 2,
+      "F2": 5,
+      "Champion": 1
+    },
+    "SMU": {
+      "R64": 73,
+      "R32": 25,
+      "S16": 27,
+      "E8": 4,
+      "F4": 1,
+      "F2": 24,
+      "Champion": 1
+    },
+    "Duke": {
+      "R64": 100,
+      "R32": 99,
+      "S16": 81,
+      "E8": 68,
+      "F4": 53,
+      "F2": 38,
+      "Champion": 20
+    },
+    "Houston": {
+      "R64": 100,
+      "R32": 98,
+      "S16": 77,
+      "E8": 50,
+      "F4": 29,
+      "F2": 32,
+      "Champion": 8
+    },
+    "BYU": {
+      "R64": 100,
+      "R32": 57,
+      "S16": 23,
+      "E8": 11,
+      "F4": 3,
+      "F2": 6,
+      "Champion": 1
+    },
+    "Texas Tech": {
+      "R64": 100,
+      "R32": 72,
+      "S16": 36,
+      "E8": 7,
+      "F4": 4,
+      "F2": 18,
+      "Champion": 1
+    },
+    "Kansas": {
+      "R64": 100,
+      "R32": 90,
+      "S16": 44,
+      "E8": 11,
+      "F4": 6,
+      "F2": 2,
+      "Champion": 2
+    },
+    "Iowa St.": {
+      "R64": 100,
+      "R32": 96,
+      "S16": 76,
+      "E8": 52,
+      "F4": 24,
+      "F2": 30,
+      "Champion": 5
+    },
+    "Arizona": {
+      "R64": 100,
+      "R32": 99,
+      "S16": 84,
+      "E8": 70,
+      "F4": 53,
+      "F2": 38,
+      "Champion": 18
+    },
+    "Purdue": {
+      "R64": 100,
+      "R32": 97,
+      "S16": 77,
+      "E8": 48,
+      "F4": 20,
+      "F2": 30,
+      "Champion": 4
+    },
+    "Michigan": {
+      "R64": 100,
+      "R32": 99,
+      "S16": 84,
+      "E8": 72,
+      "F4": 54,
+      "F2": 35,
+      "Champion": 18
+    },
+    "UCLA": {
+      "R64": 100,
+      "R32": 68,
+      "S16": 29,
+      "E8": 14,
+      "F4": 4,
+      "F2": 18,
+      "Champion": 1
+    },
+    "Illinois": {
+      "R64": 100,
+      "R32": 96,
+      "S16": 64,
+      "E8": 42,
+      "F4": 18,
+      "F2": 32,
+      "Champion": 3
+    },
+    "Ohio St.": {
+      "R64": 100,
+      "R32": 58,
+      "S16": 18,
+      "E8": 6,
+      "F4": 4,
+      "F2": 18,
+      "Champion": 1
+    },
+    "Michigan St.": {
+      "R64": 100,
+      "R32": 92,
+      "S16": 62,
+      "E8": 32,
+      "F4": 10,
+      "F2": 26,
+      "Champion": 2
+    },
+    "Wisconsin": {
+      "R64": 100,
+      "R32": 81,
+      "S16": 40,
+      "E8": 11,
+      "F4": 8,
+      "F2": 26,
+      "Champion": 1
+    },
+    "Iowa": {
+      "R64": 100,
+      "R32": 57,
+      "S16": 12,
+      "E8": 6,
+      "F4": 2,
+      "F2": 2,
+      "Champion": 1
+    },
+    "Gonzaga": {
+      "R64": 100,
+      "R32": 96,
+      "S16": 63,
+      "E8": 30,
+      "F4": 10,
+      "F2": 25,
+      "Champion": 2
+    },
+    "Florida": {
+      "R64": 100,
+      "R32": 99,
+      "S16": 82,
+      "E8": 58,
+      "F4": 34,
+      "F2": 26,
+      "Champion": 10
+    },
+    "Kentucky": {
+      "R64": 100,
+      "R32": 60,
+      "S16": 16,
+      "E8": 8,
+      "F4": 3,
+      "F2": 3,
+      "Champion": 1
+    },
+    "Arkansas": {
+      "R64": 100,
+      "R32": 91,
+      "S16": 56,
+      "E8": 34,
+      "F4": 9,
+      "F2": 24,
+      "Champion": 2
+    },
+    "Alabama": {
+      "R64": 100,
+      "R32": 85,
+      "S16": 50,
+      "E8": 14,
+      "F4": 5,
+      "F2": 24,
+      "Champion": 1
+    },
+    "Tennessee": {
+      "R64": 100,
+      "R32": 80,
+      "S16": 40,
+      "E8": 18,
+      "F4": 6,
+      "F2": 22,
+      "Champion": 1
+    },
+    "Texas A&M": {
+      "R64": 100,
+      "R32": 44,
+      "S16": 7,
+      "E8": 3,
+      "F4": 1,
+      "F2": 2,
+      "Champion": 1
+    },
+    "Missouri": {
+      "R64": 100,
+      "R32": 47,
+      "S16": 17,
+      "E8": 4,
+      "F4": 17,
+      "F2": 9,
+      "Champion": 1
+    },
+    "Vanderbilt": {
+      "R64": 100,
+      "R32": 88,
+      "S16": 52,
+      "E8": 22,
+      "F4": 9,
+      "F2": 19,
+      "Champion": 2
+    },
+    "Texas": {
+      "R64": 100,
+      "R32": 44,
+      "S16": 32,
+      "E8": 4,
+      "F4": 6,
+      "F2": 25,
+      "Champion": 1
+    },
+    "Saint Mary's": {
+      "R64": 100,
+      "R32": 59,
+      "S16": 16,
+      "E8": 6,
+      "F4": 3,
+      "F2": 3,
+      "Champion": 1
+    },
+    "UCF": {
+      "R64": 100,
+      "R32": 33,
+      "S16": 28,
+      "E8": 3,
+      "F4": 22,
+      "F2": 24,
+      "Champion": 1
+    },
+    "Nebraska": {
+      "R64": 100,
+      "R32": 88,
+      "S16": 43,
+      "E8": 31,
+      "F4": 5,
+      "F2": 20,
+      "Champion": 1
+    },
+    "Miami (OH)": {
+      "R64": 28,
+      "R32": 5,
+      "S16": 2,
+      "E8": 2,
+      "F4": 16,
+      "F2": 2,
+      "Champion": 1
+    },
+    "Santa Clara": {
+      "R64": 100,
+      "R32": 42,
+      "S16": 23,
+      "E8": 3,
+      "F4": 2,
+      "F2": 6,
+      "Champion": 1
+    },
+    "Saint Louis": {
+      "R64": 100,
+      "R32": 44,
+      "S16": 5,
+      "E8": 2,
+      "F4": 5,
+      "F2": 14,
+      "Champion": 1
+    },
+    "High Point": {
+      "R64": 100,
+      "R32": 20,
+      "S16": 16,
+      "E8": 2,
+      "F4": 18,
+      "F2": 0,
+      "Champion": 1
+    },
+    "Queens University": {
+      "R64": 100,
+      "R32": 4,
+      "S16": 18,
+      "E8": 2,
+      "F4": 8,
+      "F2": 1,
+      "Champion": 1
+    },
+    "Idaho": {
+      "R64": 100,
+      "R32": 4,
+      "S16": 2,
+      "E8": 1,
+      "F4": 2,
+      "F2": 16,
+      "Champion": 1
+    },
+    "Hofstra": {
+      "R64": 100,
+      "R32": 16,
+      "S16": 20,
+      "E8": 2,
+      "F4": 2,
+      "F2": 2,
+      "Champion": 1
+    },
+    "Wright St.": {
+      "R64": 100,
+      "R32": 8,
+      "S16": 8,
+      "E8": 1,
+      "F4": 24,
+      "F2": 24,
+      "Champion": 1
+    },
+    "Siena": {
+      "R64": 100,
+      "R32": 2,
+      "S16": 1,
+      "E8": 14,
+      "F4": 1,
+      "F2": 0,
+      "Champion": 1
+    },
+    "Howard": {
+      "R64": 100,
+      "R32": 2,
+      "S16": 2,
+      "E8": 1,
+      "F4": 21,
+      "F2": 6,
+      "Champion": 1
+    },
+    "LIU": {
+      "R64": 100,
+      "R32": 2,
+      "S16": 1,
+      "E8": 11,
+      "F4": 2,
+      "F2": 2,
+      "Champion": 1
+    },
+    "Tennessee St.": {
+      "R64": 100,
+      "R32": 4,
+      "S16": 2,
+      "E8": 1,
+      "F4": 24,
+      "F2": 18,
+      "Champion": 1
+    },
+    "Lehigh": {
+      "R64": 62,
+      "R32": 2,
+      "S16": 1,
+      "E8": 14,
+      "F4": 1,
+      "F2": 0,
+      "Champion": 1
+    },
+    "Furman": {
+      "R64": 100,
+      "R32": 5,
+      "S16": 2,
+      "E8": 2,
+      "F4": 12,
+      "F2": 0,
+      "Champion": 1
+    },
+    "McNeese": {
+      "R64": 100,
+      "R32": 24,
+      "S16": 26,
+      "E8": 2,
+      "F4": 11,
+      "F2": 2,
+      "Champion": 1
+    },
+    "North Dakota St.": {
+      "R64": 100,
+      "R32": 9,
+      "S16": 2,
+      "E8": 1,
+      "F4": 2,
+      "F2": 0,
+      "Champion": 1
+    },
+    "Troy": {
+      "R64": 100,
+      "R32": 14,
+      "S16": 2,
+      "E8": 2,
+      "F4": 4,
+      "F2": 0,
+      "Champion": 1
+    },
+    "Hawai'i": {
+      "R64": 100,
+      "R32": 12,
+      "S16": 7,
+      "E8": 19,
+      "F4": 7,
+      "F2": 2,
+      "Champion": 1
+    },
+    "Akron": {
+      "R64": 100,
+      "R32": 28,
+      "S16": 16,
+      "E8": 2,
+      "F4": 6,
+      "F2": 22,
+      "Champion": 1
+    },
+    "Northern Iowa": {
+      "R64": 100,
+      "R32": 18,
+      "S16": 4,
+      "E8": 2,
+      "F4": 2,
+      "F2": 0,
+      "Champion": 1
+    },
+    "Prairie View A&M": {
+      "R64": 42,
+      "R32": 2,
+      "S16": 1,
+      "E8": 1,
+      "F4": 3,
+      "F2": 0,
+      "Champion": 1
+    },
+    "Penn": {
+      "R64": 100,
+      "R32": 4,
+      "S16": 2,
+      "E8": 2,
+      "F4": 15,
+      "F2": 23,
+      "Champion": 1
+    },
+    "South Florida": {
+      "R64": 100,
+      "R32": 36,
+      "S16": 32,
+      "E8": 4,
+      "F4": 2,
+      "F2": 24,
+      "Champion": 1
+    },
+    "Kennesaw St.": {
+      "R64": 100,
+      "R32": 6,
+      "S16": 16,
+      "E8": 2,
+      "F4": 2,
+      "F2": 0,
+      "Champion": 1
+    },
+    "California Baptist": {
+      "R64": 100,
+      "R32": 12,
+      "S16": 18,
+      "E8": 2,
+      "F4": 2,
+      "F2": 24,
+      "Champion": 1
+    },
+    "Utah St.": {
+      "R64": 100,
+      "R32": 56,
+      "S16": 28,
+      "E8": 3,
+      "F4": 2,
+      "F2": 24,
+      "Champion": 1
+    },
+    "TCU": {
+      "R64": 100,
+      "R32": 44,
+      "S16": 20,
+      "E8": 3,
+      "F4": 2,
+      "F2": 13,
+      "Champion": 1
+    },
+    "Georgia": {
+      "R64": 100,
+      "R32": 56,
+      "S16": 28,
+      "E8": 4,
+      "F4": 2,
+      "F2": 2,
+      "Champion": 1
+    },
+    "NC State": {
+      "R64": 100,
+      "R32": 42,
+      "S16": 12,
+      "E8": 4,
+      "F4": 1,
+      "F2": 1,
+      "Champion": 1
+    },
+    "UMBC": {
+      "R64": 100,
+      "R32": 2,
+      "S16": 1,
+      "E8": 1,
+      "F4": 1,
+      "F2": 1,
+      "Champion": 1
+    }
+  }
+}
